@@ -1,3 +1,5 @@
+#Created by Brian C
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -115,3 +117,4 @@ theta = np.linspace(-np.pi, np.pi, 200)
 plt.plot(3*np.sin(theta), 3*np.cos(theta), color= 'black')
 
 plt.show()
+
